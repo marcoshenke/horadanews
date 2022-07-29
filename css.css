@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+
+html {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #121214;
+    color: aliceblue;
+    background-image: url(./assets/julius-drost-nsrSyI-JUYg-unsplash.jpg);
+    background-position: right;
+    background-size: 42% 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 3.125rem 0 0 1rem;
+
+}
+
+header img {
+    width: 6rem;
+}
+
+#titlepage {
+    padding: 2rem;
+    font-weight: bold;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 5.75rem 0 0 2rem;
+}
+
+section div h1 {
+    width: 55%;
+    color: var(--title-color);
+
+}
+
+section div p {
+    width: 55%;
+    color: var(--text-color);
+    font-size: 1.25rem;
+
+}
+
+#bold {
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+
+#insertemail {
+    font-size: 1.25rem;
+    padding: 2rem 0 0 0;
+}
+
+form {
+    padding: .125rem 0 0 0;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+form label input {
+    font-size: 1.25rem;
+}
+
+form label {
+    display: flex;
+}
+
+button {
+    padding: 0rem;
+    height: 2.75rem;
+    align-items: center;
+    display: flex;
+    background-color: var(--bg-button-color);
+
+}
+
+.feather {
+    color: var(--text-color);
+    width: 2rem;
+    height: 1.5rem;
+}
+
+#letmeread1 a {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--bg-button-color)
+}
+
+#feather-arrow-right {
+    color: var(--bg-button-color);
+}
+
+#input {
+    width: 45%;
+    height: 2.7rem;
+
+}
